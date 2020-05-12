@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP D99IN1092A
+D L6205 PowerSO20
+$ENDCMP
+#
+$CMP D99IN1093A
+D L6205 PowerDIP
+$ENDCMP
+#
+#End Doc Library
