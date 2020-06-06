@@ -1,0 +1,23 @@
+(kicad_symbol_lib (version 20200126) (host kicad_symbol_editor "5.99.0-unknown-ad88874~101~ubuntu20.04.1")
+  (symbol "JBC_DiodesInc:AL8843Q"
+    (property "Reference" "U" (id 0) (at 3.81 6.35 0))
+    (property "Value" "AL8843Q" (id 1) (at 0 -6.35 0))
+    (property "Footprint" "" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (symbol "AL8843Q_0_1"
+      (rectangle (start 8.89 5.08) (end -8.89 -5.08) (stroke (width 0.152)) (fill (type background)))
+    )
+    (symbol "AL8843Q_1_1"
+      (pin input line (at -11.43 -2.54 0) (length 2.54) (name "GND") (number "1"))
+      (pin input line (at 11.43 2.54 180) (length 2.54) (name "SET") (number "3"))
+      (pin input line (at -11.43 2.54 0) (length 2.54) (name "CTRL") (number "5"))
+      (pin power_in line (at 0 7.62 270) (length 2.54) (name "VIN") (number "6"))
+      (pin input line (at 11.43 -2.54 180) (length 2.54) (name "SW") (number "7"))
+      (pin passive line (at 0 -7.62 90) (length 2.54) (name "THERM") (number "9"))
+    )
+  )
+)
